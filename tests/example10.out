@@ -1,0 +1,127 @@
+Reading the program file tests/example10.in ... Found 42 instructions
+getDepDepth(0)==0
+getInstUsers(0)==0: 
+getInstDeps(0)=={-1,-1}
+getDepDepth(1)==0
+getInstUsers(1)==0: 
+getInstDeps(1)=={-1,-1}
+getDepDepth(2)==0
+getInstUsers(2)==1: 5  
+getInstDeps(2)=={-1,-1}
+getDepDepth(3)==0
+getInstUsers(3)==1: 5  
+getInstDeps(3)=={-1,-1}
+getDepDepth(4)==0
+getInstUsers(4)==1: 6  
+getInstDeps(4)=={-1,-1}
+getDepDepth(5)==1
+getInstUsers(5)==5: 6  7  8  9  10  
+getInstDeps(5)=={2,3}
+getDepDepth(6)==2
+getInstUsers(6)==1: 7  
+getInstDeps(6)=={4,5}
+getDepDepth(7)==3
+getInstUsers(7)==2: 8  9  
+getInstDeps(7)=={5,6}
+getDepDepth(8)==4
+getInstUsers(8)==0: 
+getInstDeps(8)=={7,5}
+getDepDepth(9)==4
+getInstUsers(9)==2: 10  12  
+getInstDeps(9)=={5,7}
+getDepDepth(10)==5
+getInstUsers(10)==5: 15  16  17  18  19  
+getInstDeps(10)=={9,5}
+getDepDepth(11)==0
+getInstUsers(11)==0: 
+getInstDeps(11)=={-1,-1}
+getDepDepth(12)==5
+getInstUsers(12)==3: 13  20  21  
+getInstDeps(12)=={-1,9}
+getDepDepth(13)==6
+getInstUsers(13)==3: 14  15  16  
+getInstDeps(13)=={12,-1}
+getDepDepth(14)==7
+getInstUsers(14)==0: 
+getInstDeps(14)=={-1,13}
+getDepDepth(15)==7
+getInstUsers(15)==0: 
+getInstDeps(15)=={13,10}
+getDepDepth(16)==7
+getInstUsers(16)==2: 17  18  
+getInstDeps(16)=={10,13}
+getDepDepth(17)==8
+getInstUsers(17)==0: 
+getInstDeps(17)=={16,10}
+getDepDepth(18)==8
+getInstUsers(18)==2: 19  21  
+getInstDeps(18)=={10,16}
+getDepDepth(19)==9
+getInstUsers(19)==1: 24  
+getInstDeps(19)=={18,10}
+getDepDepth(20)==6
+getInstUsers(20)==0: 
+getInstDeps(20)=={12,-1}
+getDepDepth(21)==9
+getInstUsers(21)==2: 22  31  
+getInstDeps(21)=={12,18}
+getDepDepth(22)==10
+getInstUsers(22)==2: 23  24  
+getInstDeps(22)=={21,-1}
+getDepDepth(23)==11
+getInstUsers(23)==0: 
+getInstDeps(23)=={-1,22}
+getDepDepth(24)==11
+getInstUsers(24)==1: 25  
+getInstDeps(24)=={22,19}
+getDepDepth(25)==12
+getInstUsers(25)==2: 26  27  
+getInstDeps(25)=={24,24}
+getDepDepth(26)==13
+getInstUsers(26)==1: 27  
+getInstDeps(26)=={25,25}
+getDepDepth(27)==14
+getInstUsers(27)==2: 28  30  
+getInstDeps(27)=={25,26}
+getDepDepth(28)==15
+getInstUsers(28)==1: 29  
+getInstDeps(28)=={27,27}
+getDepDepth(29)==16
+getInstUsers(29)==0: 
+getInstDeps(29)=={-1,28}
+getDepDepth(30)==15
+getInstUsers(30)==1: 33  
+getInstDeps(30)=={27,27}
+getDepDepth(31)==10
+getInstUsers(31)==2: 32  33  
+getInstDeps(31)=={21,-1}
+getDepDepth(32)==11
+getInstUsers(32)==0: 
+getInstDeps(32)=={-1,31}
+getDepDepth(33)==16
+getInstUsers(33)==1: 34  
+getInstDeps(33)=={31,30}
+getDepDepth(34)==17
+getInstUsers(34)==2: 35  36  
+getInstDeps(34)=={33,33}
+getDepDepth(35)==18
+getInstUsers(35)==1: 36  
+getInstDeps(35)=={34,34}
+getDepDepth(36)==19
+getInstUsers(36)==2: 37  39  
+getInstDeps(36)=={34,35}
+getDepDepth(37)==20
+getInstUsers(37)==1: 38  
+getInstDeps(37)=={36,36}
+getDepDepth(38)==21
+getInstUsers(38)==1: 39  
+getInstDeps(38)=={-1,37}
+getDepDepth(39)==22
+getInstUsers(39)==1: 40  
+getInstDeps(39)=={36,38}
+getDepDepth(40)==23
+getInstUsers(40)==1: 41  
+getInstDeps(40)=={39,39}
+getDepDepth(41)==24
+getInstUsers(41)==0: 
+getInstDeps(41)=={-1,40}

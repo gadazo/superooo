@@ -1,0 +1,16 @@
+Reading the program file tests/example9.in ... Found 5 instructions
+getDepDepth(0)==0
+getInstUsers(0)==2: 1  2  
+getInstDeps(0)=={-1,-1}
+getDepDepth(1)==1
+getInstUsers(1)==2: 2  3  
+getInstDeps(1)=={0,-1}
+getDepDepth(2)==2
+getInstUsers(2)==2: 3  4  
+getInstDeps(2)=={0,1}
+getDepDepth(3)==3
+getInstUsers(3)==1: 4  
+getInstDeps(3)=={2,1}
+getDepDepth(4)==4
+getInstUsers(4)==0: 
+getInstDeps(4)=={2,3}

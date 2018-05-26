@@ -1,0 +1,31 @@
+Reading the program file tests/example1.in ... Found 10 instructions
+getDepDepth(0)==0
+getInstUsers(0)==4: 2  3  4  7  
+getInstDeps(0)=={-1,-1}
+getDepDepth(1)==0
+getInstUsers(1)==2: 4  5  
+getInstDeps(1)=={-1,-1}
+getDepDepth(2)==1
+getInstUsers(2)==1: 6  
+getInstDeps(2)=={0,-1}
+getDepDepth(3)==1
+getInstUsers(3)==3: 5  6  7  
+getInstDeps(3)=={0,-1}
+getDepDepth(4)==1
+getInstUsers(4)==0: 
+getInstDeps(4)=={1,0}
+getDepDepth(5)==2
+getInstUsers(5)==1: 8  
+getInstDeps(5)=={3,1}
+getDepDepth(6)==2
+getInstUsers(6)==1: 8  
+getInstDeps(6)=={3,2}
+getDepDepth(7)==2
+getInstUsers(7)==1: 9  
+getInstDeps(7)=={3,0}
+getDepDepth(8)==3
+getInstUsers(8)==1: 9  
+getInstDeps(8)=={5,6}
+getDepDepth(9)==4
+getInstUsers(9)==0: 
+getInstDeps(9)=={8,7}

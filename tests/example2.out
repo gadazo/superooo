@@ -1,0 +1,46 @@
+Reading the program file tests/example2.in ... Found 15 instructions
+getDepDepth(0)==0
+getInstUsers(0)==2: 1  13  
+getInstDeps(0)=={-1,-1}
+getDepDepth(1)==1
+getInstUsers(1)==1: 2  
+getInstDeps(1)=={-1,0}
+getDepDepth(2)==2
+getInstUsers(2)==2: 3  5  
+getInstDeps(2)=={-1,1}
+getDepDepth(3)==3
+getInstUsers(3)==1: 4  
+getInstDeps(3)=={-1,2}
+getDepDepth(4)==4
+getInstUsers(4)==1: 5  
+getInstDeps(4)=={-1,3}
+getDepDepth(5)==5
+getInstUsers(5)==2: 6  8  
+getInstDeps(5)=={2,4}
+getDepDepth(6)==6
+getInstUsers(6)==1: 7  
+getInstDeps(6)=={-1,5}
+getDepDepth(7)==7
+getInstUsers(7)==1: 8  
+getInstDeps(7)=={-1,6}
+getDepDepth(8)==8
+getInstUsers(8)==2: 9  14  
+getInstDeps(8)=={5,7}
+getDepDepth(9)==9
+getInstUsers(9)==1: 10  
+getInstDeps(9)=={-1,8}
+getDepDepth(10)==10
+getInstUsers(10)==1: 11  
+getInstDeps(10)=={-1,9}
+getDepDepth(11)==11
+getInstUsers(11)==1: 12  
+getInstDeps(11)=={-1,10}
+getDepDepth(12)==12
+getInstUsers(12)==1: 13  
+getInstDeps(12)=={11,-1}
+getDepDepth(13)==13
+getInstUsers(13)==1: 14  
+getInstDeps(13)=={0,12}
+getDepDepth(14)==14
+getInstUsers(14)==0: 
+getInstDeps(14)=={13,8}
