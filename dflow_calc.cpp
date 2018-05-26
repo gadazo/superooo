@@ -17,13 +17,15 @@ typedef struct {
 typedef struct {
   unsigned int num_of_inst;
   Node** node_array;
+  ///Node* node_array;
   bool* exit_node;
 } Tree;
 
 //intialize the tree
 void intializeTree(Tree* tree, unsigned int numOfInsts){
   tree->num_of_inst = numOfInsts;
-  *tree->node_array = new Node [numOfInsts];
+  tree->node_array = new Node* [numOfInsts];
+ // tree->node_array = new Node [numOfInsts];
   tree->exit_node= new bool [numOfInsts];
   for (unsigned int i =0 ; i< numOfInsts ; i ++){
     tree->exit_node[i] = false;
@@ -86,6 +88,7 @@ void freeProgCtx(ProgCtx ctx) {
   for (unsigned int i =0 ; i< tree->num_of_inst ; i++ ){
     delete tree->node_array[i];
   }
+  delete[] tree->node_array;
   delete[] tree->exit_node;
   delete tree;
   return;
